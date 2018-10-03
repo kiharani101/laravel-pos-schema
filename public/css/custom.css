@@ -1,0 +1,76 @@
+@font-face{
+  font-family: 'WorkSans';
+  src: url('../fonts/WorkSans/WorkSans-Regular.ttf');
+  src: url('../fonts/WorkSans/WorkSans-Regular.ttf') format('ttf'),
+       url('../fonts/WorkSans/WorkSans-Regular.ttf') format('truetype');
+}
+
+
+body{
+  font-family: 'WorkSans', serif !important;
+}
+
+.btn-warning{
+  color: white !important;
+}
+
+.fa-4{
+  font-size: 4em;
+  width: 1em;
+}
+.fa-2{
+  font-size: 1.5em;
+  width: 1em;
+}
+.count{
+  font-size: 1.2em;
+}
+
+.aside{
+  background: gray;
+  height: 100vh;
+}
+
+button a, button a:hover{
+  color: white;
+}
+
+/*Parsley CSS*/
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: red;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  color: red;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+.parsley-errors-list li{
+  color: red;
+}
